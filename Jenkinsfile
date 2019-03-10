@@ -1,4 +1,6 @@
 pipeline {
+    agent any
+
     environment {
         GRADLE_ARGS = '-Dorg.gradle.daemon.idletimeout=5000'
     }

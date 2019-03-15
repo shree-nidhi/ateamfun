@@ -21,5 +21,6 @@ public class SillySwordMod
         final SillySword sillySword = new SillySword();
         sillySword.setRegistryName(MODID, "silly_sword");
         itemRegistry.getRegistry().register(sillySword);
+        //Massive change by shreeni 
     }
 }
